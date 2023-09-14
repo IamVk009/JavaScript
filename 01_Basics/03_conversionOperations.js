@@ -27,3 +27,34 @@ let number = 1290
 let str = String(number)
 console.log(String(number));
 console.log(typeof str);
+
+
+// ********************** Operations ************************
+
+// Arithmatic Operations
+// console.log(2 + 3);
+// console.log(2 - 3);
+// console.log(2 * 3);
+// console.log(2 / 3);
+// console.log(2 % 3);
+// console.log(2 ** 3);
+
+// let num = 4;
+// let minusNum = -num;
+// console.log(minusNum);
+
+let str1 = "I Am "
+let str2 = "Flash"
+// console.log(str1 + str2);
+
+// console.log(1 + "2");
+// console.log(1 + "2" + 3);
+// console.log("1" + "2");
+// console.log("1" + "2" + 3);
+// console.log(1 + 3 + "2");
+// console.log(1 + 3 + 4 + "2");
+
+let counter1 = 20
+console.log(counter1++);
+let counter2 = 20
+console.log(++counter2);
