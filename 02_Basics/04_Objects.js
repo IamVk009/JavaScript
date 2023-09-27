@@ -75,3 +75,25 @@ console.log(Object.values(player));
 // Check if object has a perticular property
 console.log(player.hasOwnProperty("age"));
 console.log(player.hasOwnProperty("avg"));
+
+
+// Object Destructuring using new Syntax (Syntactical Sugar - To use it or not, choice is yours)
+const Course = {
+    courseId : 98,
+    courseName : "JS",
+    courseInstructor : "John"
+}
+
+console.log(Course);
+// If we want to extract single key-value from above object
+console.log(Course.courseId);
+console.log(Course.courseName);
+
+// But we can de-stuucture above object and instead of accessing each value using 'dot-notation',
+// We can extract it as follows
+const {courseInstructor} = Course
+console.log(courseInstructor);
+
+// Also we can further change the original key-name as well
+const {courseInstructor : instructor} = Course
+console.log(instructor);
