@@ -28,6 +28,6 @@ console.log(typeof undefined);
 // boolean => true/false
 // null => standalone value
 // undefined
-// symbol => unique 
+// symbol => unique (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
 
 // object
