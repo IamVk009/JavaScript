@@ -1,0 +1,11 @@
+> JavaScript is single threaded language.
+> JavaScript Execution Context (i.e. How JS will run/execute .js file)
+> Whenever .js file comes to JavaScript Engine, Global Execution Context(EC) gets created mandatorily and it get stored in keyword 'this'.
+> Execution Context(EC) of browser is different than EC of Node, other JS Engines.
+> In browsers, the value of 'this' keyword is Window object.
+> There two more EC in JS i.e. Function Execution Context and Eval Exceution Context.
+> JavaScript runs your code in two phases.
+    1] Memory Creation Phase (Memory gets allocated for all the variables declared in a code)
+    2] Execution Phase ()
+
+ 
