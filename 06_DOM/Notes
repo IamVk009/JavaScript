@@ -1,0 +1,25 @@
+DOM - Document Object Model
+> Whatever we write on a webpage using html, Angular, React, these all are made from objects like 
+  <head>, <body>, <component>
+> DOM simply means, the document which we have created is made from which objects, what is its structure
+  and how the page looks like with these objects.
+> If we know the objects using which our document is formed, then we can manipulate that document, 
+  like we can add new objects to it.
+
+> Try following commands in Console of the browser bg-black
+
+    - console.log(window)
+    - console.log(window.document)
+    - console.log(document)
+    - console.dir(document)
+    - console.log(document.location)
+    - console.log(document.links)
+    - console.log(document.links[3])
+    - document.getElementById('id of any object')
+    - document.getElementById('id of any object') = 'New Value'
+
+> DOM Tree Diagram - 
+
+Window -> Document -> HTML -> Head -> title 
+                        |
+                        > Body -> h1 
